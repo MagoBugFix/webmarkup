@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+@font-face
+	{
+    font-family:"ostImport";
+    src:url("../fonts/ostrich-regular.ttf") format("truetype");
+	}
+
+body
+	{
+	background-color : white;
+	}
+
+h1
+    {
+	color : #FF0000;	
+	font-family : Courier New, Lucida Console;
+	font-size : 32px;
+	font-style : oblique;
+	}	
+
+p
+    {
+	color : #0000FF;
+	font-family: 'Cedarville Cursive', cursive;
+	font-size : 5vw;
+	font-style : small-caps;
+	}		
+	
+footer
+	{
+	font-family: "ostImport";
+	size: 1.6vw;
+	color: hsla(290, 100%, 50%, 0.9);
+	font-stretch: expanded;	
+	}
+	

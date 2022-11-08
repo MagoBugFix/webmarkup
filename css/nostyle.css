@@ -1,0 +1,1342 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#hamnav {
+    width: 100%;
+    background: #D3988B;
+}
+
+.hamItemsList {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#hamitems {
+    display: flex;
+    height: 50px;
+}
+
+#hamitems a {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    line-height: 1em;
+    text-indent: 5px;
+}
+
+#hamitems a:hover {
+    background: brown;
+}
+
+
+#hamnav label,
+#hamburger {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    #hamitems a {
+        box-sizing: border-box;
+        display: block;
+        width: 50%;
+        border-top: 1px solid #333;
+    }
+
+    .hamItemsList {
+        list-style: none;
+        display: block;
+
+    }
+
+    .hamItemsList li {
+        font-size: 11px;
+    }
+
+    #hamnav label {
+        display: inline-block;
+        color: white;
+        background: #D3988B;
+        font-style: normal;
+        font-size: 1.6em;
+        padding: 10px;
+    }
+
+    #hamitems {
+        display: none;
+        height: auto;
+    }
+
+    #hamnav input:checked~#hamitems {
+        display: block;
+    }
+}
+
+#hamnavigation {
+    width: 100%;
+    background: #D3988B;
+}
+
+#hamitems {
+    display: flex;
+}
+
+#hamitems a {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    line-height: 1em;
+    text-indent: 5px;
+}
+
+#hamitems a:hover {
+    background: brown;
+}
+
+
+#hamnavigation label,
+#hamburger {
+    display: none;
+}
+
+
+@media screen and (max-width: 480px) {
+    #hamitems a {
+        box-sizing: border-box;
+        display: block;
+        width: 50%;
+        border-top: 1px solid #333;
+    }
+
+    #hamnavigation label {
+        display: inline-block;
+        color: white;
+        background: #D3988B;
+        font-style: normal;
+        font-size: 1.6em;
+        padding: 10px;
+    }
+
+    #hamitems {
+        display: none;
+    }
+
+    #hamnavigation input:checked~#hamitems {
+        display: block;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+
+td:first-child {
+    background-color: #66DD58;
+}
+
+header {
+    background-color: #702D1F;
+
+    grid-area: headerTag;
+}
+
+nav {
+    background-color: #883726;
+
+    grid-area: navTag;
+}
+
+#videoSection {
+    background-color: #ff9966;
+}
+
+#articleToulouse {
+    background-color: #952F19;
+}
+
+#articlePaphos {
+    background-color: #AA381F;
+}
+
+#articleMykonos {
+    background-color: #BC3D21;
+}
+
+#asideIndex {
+    background-color: #CC4527;
+}
+
+.footer {
+    background-color: #EC6142;
+
+    grid-area: footerTag;
+}
+
+#logo {
+    width: 100px;
+}
+
+article {
+    padding: 50px;
+}
+
+#destinationJapan {
+    background-color: #641E16;
+    grid-area: destinationJapanTag;
+}
+
+#destinationJamaica {
+    background-color: #C36529;
+    grid-area: destinationJamaicaTag;
+}
+
+#destinationMorocco {
+    background-color: #641E16;
+    grid-area: destinationMoroccoTag;
+}
+
+#destinationSriLanka {
+    background-color: #922B21;
+    grid-area: destinationSriLankaTag;
+}
+
+#destinationMauritus {
+    background-color: #BD5A19;
+    grid-area: destinationMauritusTag;
+}
+
+#destinationAbuDhabi {
+    background-color: #9C511A;
+    grid-area: destinationAbuDhabiTag;
+}
+
+#productJapan {
+    width: 40%;
+    background-color: #F0C343;
+    grid-area: productJapanTag;
+}
+
+#productAbuDhabi {
+    width: 30%;
+    background-color: #EABB34;
+    grid-area: productAbuDhabiTag;
+}
+
+#productJamaica {
+    width: 30%;
+    background-color: #DAAC29;
+    grid-area: productJamaicaTag;
+}
+
+#bestDestinationAside {
+    grid-area: bestDestinationAsideTag;
+}
+
+#ticketArticle {
+    background-color: #EABB34;
+    grid-area: ticketArticleTag;
+}
+
+#ticketSection {
+    background-color: #DAAC29;
+    grid-area: ticketTag;
+}
+
+#ticketsAside {
+    background-color: #31B921;
+    grid-area: ticketAsideTag;
+}
+
+#copyright {
+    grid-area: copyrightTag;
+}
+
+
+
+
+#ticketTable+p {
+    background-color: #b5a17f;
+}
+
+#contact-information {
+    background-color: #FFC72B;
+
+    grid-area: contactInfoTag;
+}
+
+#ContactForm {
+    background-color: #9C511A;
+    grid-area: formTag;
+}
+
+#contactAside {
+    background-color: #9EEC96;
+    grid-area: contactAsideTag;
+}
+
+
+.articleHeader {
+    background-color: transparent;
+}
+
+.articleFooter {
+    position: relative;
+}
+
+footer+p {
+    background-color: #2D7625;
+}
+#bestDestGrid {
+    width: 100%;
+    display: grid;
+
+    grid-template-columns: 40% 30% 30%;
+
+    grid-template-areas:
+        'headerTag          headerTag        headerTag'
+        'navTag             navTag           navTag'
+        'destinationJamaicaTag   destinationJapanTag destinationMoroccoTag'
+        'destinationJamaicaTag   destinationJapanTag destinationMoroccoTag'
+        'destinationJamaicaTag   destinationJapanTag destinationMoroccoTag'
+        'destinationJamaicaTag   destinationJapanTag destinationSriLankaTag'
+        'destinationMauritusTag   destinationJapanTag destinationSriLankaTag'
+        'destinationMauritusTag   destinationJapanTag destinationSriLankaTag'
+        'destinationMauritusTag   destinationAbuDhabiTag destinationAbuDhabiTag'
+        'bestDestinationAsideTag      bestDestinationAsideTag    bestDestinationAsideTag'
+        'footerTag          footerTag        cookieTag'
+
+    ;
+}
+
+#ticketsGrid {
+    width: 100%;
+    display: grid;
+
+    grid-template-columns: 40% 30% 30%;
+
+    grid-template-areas:
+        'headerTag          headerTag        headerTag'
+        'navTag             navTag           navTag'
+        'ticketArticleTag      ticketArticleTag    ticketArticleTag'
+        'ticketTag          ticketTag        ticketAsideTag'
+        'copyrightTag       copyrightTag     ticketAsideTag'
+        'footerTag          footerTag        cookieTag'
+
+
+
+    ;
+}
+
+#contactGrid {
+    width: 100%;
+    display: grid;
+
+    grid-template-columns: 40% 30% 30%;
+
+    grid-template-areas:
+        'headerTag          headerTag        headerTag'
+        'navTag             navTag           navTag'
+        'contactInfoTag     contactInfoTag   contactInfoTag'
+        'formTag            formTag          contactAsideTag'
+        'footerTag          footerTag        cookieTag'
+
+
+
+    ;
+}
+
+@media screen and (min-width: 481px) and (max-width: 1179px) {
+
+    #flexContainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+
+    }
+
+    #indexHeader {
+        flex-basis: 100%;
+        order: 1;
+    }
+
+    #hamnavigation {
+        order: 2;
+    }
+
+    #videoSection {
+        flex-basis: 100%;
+        order: 4;
+
+    }
+
+    #articleToulouse,
+    #articlePaphos,
+    #articleMykonos {
+        flex-grow: 0;
+        flex-basis: 100%;
+    }
+
+    #articleToulouse {
+        order: 7;
+    }
+
+    #articlePaphos {
+        order: 6;
+    }
+
+    #articleMykonos {
+        order: 5;
+    }
+
+    #asideIndex {
+        order: 3;
+        background-color: #1D6D26;
+        padding: 50px;
+        flex-basis: auto;
+        flex-grow: 0;
+
+
+    }
+
+    #bodyIndex {
+        background-color: #ffffff;
+    }
+
+
+    #cookieStatement {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        flex-basis: auto;
+        background-color: #FA0;
+        opacity: 50%;
+        z-index: 9999;
+    }
+
+
+    #footerIndex {
+        flex-basis: 70%;
+        order: 9;
+    }
+
+    aside {
+        width: 100vw;
+    }
+
+    .articleImage {
+        width: 200px;
+        float: left;
+        clear: both;
+        position: relative;
+        top: -120px;
+    }
+
+    .articleText {
+        width: 50%;
+        float: right;
+    }
+
+    video {
+        width: 320px;
+        height: 240px;
+    }
+
+    figure>figcaption {
+        float: left;
+        clear: both;
+    }
+
+    #bestDestGrid {
+        width: 100%;
+        display: grid;
+
+        grid-template-columns: 50% 50%;
+
+        grid-template-areas:
+            'headerTag          headerTag'
+            'navTag             navTag'
+            'destinationJapanTag   destinationJamaicaTag'
+            'destinationJapanTag   destinationJamaicaTag'
+            'destinationMoroccoTag   destinationJamaicaTag'
+            'destinationMoroccoTag   destinationJamaicaTag'
+            'destinationMoroccoTag   destinationMauritusTag'
+            'destinationMoroccoTag   destinationMauritusTag'
+            'destinationAbuDhabiTag   destinationAbuDhabiTag'
+            'destinationAbuDhabiTag   destinationAbuDhabiTag'
+            'bestDestinationAsideTag   best-aisdeTag'
+            'footerTag   cookieTag'
+
+
+        ;
+    }
+
+    #destinationSriLanka,
+    #productJamaica {
+        display: none;
+    }
+
+    .product-image {
+        width: 150px;
+    }
+
+    #bestDestinationAside {
+        display: flex;
+    }
+
+    #productJapan,
+    #productAbuDhabi {
+        padding: 20px;
+    }
+
+    #productJapan {
+        width: 50%;
+    }
+
+    #productAbuDhabi {
+        width: 50%;
+    }
+
+    #cookieStatementBestDestination {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        width: 50%;
+        background-color: #FA0;
+        opacity: 50%;
+        z-index: 9999;
+    }
+
+    #ticketArticle {
+        background-color: #9B6221;
+        grid-area: ticketArticleTag;
+    }
+
+    #ticketSection {
+        background-color: #8E591D;
+        grid-area: ticketTag;
+        padding: 50px;
+        border: solid;
+        border-style: double;
+    }
+
+    #ticketsAside {
+        background-color: #744918;
+        grid-area: ticketAsideTag;
+        padding: 20px;
+    }
+
+    #productSection {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #copyright {
+        grid-area: copyrightTag;
+        background-color: #2D7625;
+    }
+
+    #ticketProductAbuDhabi {
+        display: none;
+    }
+
+    #ticketsGrid {
+        width: 100%;
+        display: grid;
+
+        grid-template-columns: 50% 50%;
+
+        grid-template-areas:
+            'headerTag          headerTag'
+            'navTag             navTag'
+            'ticketArticleTag   ticketArticleTag'
+            'ticketTag          ticketTag'
+            'copyrightTag       copyrightTag'
+            'ticketAsideTag     ticketAsideTag'
+            'footerTag          cookieTag'
+        ;
+    }
+
+    #cookieStatement-tickets {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        width: 50%;
+        background-color: #FA0;
+        opacity: 50%;
+        z-index: 9999;
+
+
+        grid-area: cookieTag;
+
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        background-color: #b5a17f;
+    }
+
+    td,
+    th {
+        border: 1px solid #9B6221;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #9B6221;
+
+    }
+
+    #contactGrid {
+        width: 100%;
+        display: grid;
+
+        grid-template-columns: 65% 35%;
+        grid-template-rows: auto auto auto 100% auto;
+
+        grid-template-areas:
+            'headerTag          headerTag'
+            'navTag             navTag'
+            'contactInfoTag      contactInfoTag'
+            'formTag          contactAsideTag'
+            'footerTag          cookieTag'
+        ;
+    }
+
+    fieldset {
+        background-color: #2D7625;
+        padding: 100px;
+    }
+
+    legend {
+        background-color: green;
+        color: white;
+        padding: 5px 10px;
+    }
+
+    input {
+        margin: 5px;
+    }
+
+
+    input[type=text],
+    input[type=email],
+    select,
+    textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+
+    input[type=submit] {
+        background-color: #44C236;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: brown;
+    }
+
+    #ContactForm {
+        background-color: brown;
+        padding: 50px;
+    }
+
+
+
+    #productSection-contact {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #contactAside {
+        padding: 20px;
+        width: 100%;
+    }
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    body {
+        position: relative
+    }
+
+    #cookieStatement-contact {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        width: 35%;
+        background-color: #FA0;
+        opacity: 50%;
+        z-index: 9999;
+
+
+        grid-area: cookieTag;
+
+    }
+
+    #contact-information {
+        padding: 50px;
+    }
+
+
+
+}
+
+@media (min-width: 1180px) {
+
+    #flexContainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+
+    }
+
+    #indexHeader {
+        flex-basis: 100%;
+        order: 1;
+    }
+
+    #hamnavigation {
+        order: 2;
+    }
+
+    #videoSection {
+        flex-basis: 100%;
+        order: 3;
+
+    }
+
+    #articleToulouse,
+    #articlePaphos,
+    #articleMykonos {
+        flex-grow: 0;
+        flex-basis: 60%;
+    }
+
+    #articleToulouse {
+        order: 4;
+    }
+
+    #articlePaphos {
+        order: 6;
+    }
+
+    #articleMykonos {
+        order: 7;
+    }
+
+    #asideIndex {
+        order: 5;
+        background-color: #1D6D26;
+        padding: 50px;
+        flex-basis: 20%;
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+
+    #bodyIndex {
+        background-color: #1D6D26;
+    }
+
+
+    #cookieStatement {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        flex-basis: auto;
+        background-color: #FA0;
+        opacity: 50%;
+        z-index: 9999;
+    }
+
+
+    #footerIndex {
+        flex-basis: 65.2%;
+        order: 9;
+    }
+
+    video {
+        width: 320px;
+        height: 240px;
+    }
+
+    .articleImage {
+        width: 200px;
+        float: right;
+        clear: both;
+        position: relative;
+        top: -120px;
+    }
+
+
+    .articleText {
+        width: 50%;
+        word-spacing: .2rem;
+    }
+
+    .articleText #asideIndex {
+        background-color: #1D6D26;
+        width: 20em;
+        padding: 45px;
+        float: left;
+
+        grid-area: asideTag;
+    }
+
+    .product-image {
+        width: 200px;
+    }
+
+    #bestDestinationAside {
+        display: flex;
+    }
+
+    #productJapan,
+    #productAbuDhabi,
+    #productJamaica {
+        padding: 50px;
+    }
+
+    #productJapan {
+        width: 42%;
+    }
+
+    #productAbuDhabi {
+        width: 30%;
+    }
+
+    #productJamaica {
+        width: 30%;
+    }
+
+    #cookieStatementBestDestination {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        width: 30%;
+        background-color: #FA0;
+        opacity: 50%;
+        z-index: 9999;
+
+
+        grid-area: cookieTag;
+
+
+    }
+
+
+    #cookieStatement-tickets {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        width: 30%;
+        background-color: #FA0;
+        opacity: 50%;
+        z-index: 9999;
+
+
+        grid-area: cookieTag;
+
+    }
+
+    #ticketsGrid {
+        grid-template-rows: auto auto auto 80vh auto auto;
+    }
+
+    #ticketsAside {
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #ticketSection {
+        padding: 50px;
+    }
+
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td,
+    th {
+        border: 1px solid #ffd996;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #ffd996;
+
+    }
+
+    tr:nth-child(odd) {
+        background-color: #FFF;
+
+    }
+
+
+    #contactGrid {
+        grid-template-rows: auto auto auto 1000px auto;
+    }
+
+
+    fieldset {
+        background-color: #ffd996;
+        padding: 100px;
+    }
+
+    input {
+        margin: 5px;
+    }
+
+    input[type=text],
+    input[type=email],
+    select,
+    textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+
+    input[type=submit] {
+        background-color: #44C236;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: #brown;
+    }
+
+    input[type=submit]:active {
+        background-color: darkgreen;
+    }
+
+    #ContactForm {
+        background-color: brown;
+        padding: 200px;
+    }
+
+    #cookieStatement-contact {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        width: 30%;
+        background-color: #FA0;
+        opacity: 50%;
+        z-index: 9999;
+
+
+        grid-area: cookieTag;
+
+    }
+
+    #contactAside {
+        padding: 50px;
+    }
+
+    #contact-information {
+        padding: 20px;
+        padding-left: 100px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    body {
+        position: relative
+    }
+
+    #logo {
+        display: none;
+    }
+
+    #flexContainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+
+    }
+
+    #indexHeader {
+        flex-basis: 65%;
+        order: 1;
+    }
+
+    #hamnavigation {
+        flex-basis: 35%;
+        order: 2;
+        width: 20%;
+
+    }
+
+    #videoSection {
+        flex-basis: 100%;
+        order: 4;
+
+    }
+
+    #articleToulouse,
+    #articlePaphos,
+    #articleMykonos {
+        flex-grow: 0;
+        flex-basis: 100%;
+    }
+
+    #articleToulouse {
+        order: 7;
+    }
+
+    #articlePaphos {
+        order: 6;
+    }
+
+    #articleMykonos {
+        order: 5;
+    }
+
+    #asideIndex {
+        order: 3;
+        background-color: #1D6D26;
+        padding: 50px;
+        flex-basis: auto;
+        flex-grow: 0;
+
+
+    }
+
+    #bodyIndex {
+        background-color: #1D6D26;
+    }
+
+
+    #cookieStatement {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        flex-basis: auto;
+        background-color: #FA0;
+        opacity: 50%;
+        z-index: 9999;
+    }
+
+
+    #footerIndex {
+        flex-basis: 60%;
+        order: 9;
+    }
+
+    video {
+        display: none;
+    }
+
+    .articleImage {
+        width: 200px;
+        position: relative;
+        margin: 50px;
+    }
+
+    .articleText {
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    #hamnav {
+        grid-area: hamnavTag;
+    }
+
+    #destinationMauritus {
+        grid-area: destinationMauritusTag;
+    }
+
+    #destinationMorocco {
+        grid-area: destinationMoroccoTag;
+    }
+
+    #destinationJamaica {
+        grid-area: destinationJamaicaTag;
+    }
+
+    #destinationJapan {
+        grid-area: destinationJapanTag;
+    }
+
+    #productJapan {
+        grid-area: productJapanTag;
+    }
+
+    #bestDestGrid {
+
+        grid-template-columns: 60% 40%;
+
+        grid-template-areas:
+            'headerTag          hamnavTag'
+            'destinationMauritusTag   destinationMauritusTag'
+            'destinationMoroccoTag   destinationMoroccoTag'
+            'destinationJamaicaTag   destinationJamaicaTag'
+            'destinationJapanTag   destinationJapanTag'
+            'bestDestinationAsideTag   bestDestinationAsideTag'
+            'footerTag cookieTag'
+
+
+
+        ;
+    }
+
+    .product-image {
+        width: 170px;
+    }
+
+    #productJapan,
+    #productAbuDhabi,
+    #productJamaica {
+        padding: 20px;
+    }
+
+    #productJapan {
+        width: 100%;
+    }
+
+    #productAbuDhabi {
+        width: 100%;
+    }
+
+    #productJamaica {
+        width: 100%;
+    }
+
+    #destinationSriLanka,
+    #destinationAbuDhabi {
+        display: none;
+    }
+
+    #cookieStatementBestDestination {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        width: 40%;
+        background-color: #FA0;
+        opacity: 50%;
+        z-index: 9999;
+    }
+
+    #ticketArticle {
+        background-color: #BA4A00;
+        grid-area: ticketArticleTag;
+        display: none;
+    }
+
+    #ticketSection {
+        background-color: #C36529;
+        grid-area: ticketTag;
+    }
+
+    #ticketsAside {
+        background-color: #31B921;
+        grid-area: ticketAsideTag;
+    }
+
+    #productSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        padding-left: 50px;
+    }
+
+    #copyright {
+        grid-area: copyrightTag;
+        background-color: #2D7625;
+    }
+
+    #ticketsGrid {
+        width: 100%;
+        display: grid;
+
+        grid-template-columns: 50% 50%;
+
+        grid-template-areas:
+            'headerTag          hamnavTag'
+            'ticketArticleTag   ticketArticleTag'
+            'ticketTag          ticketTag'
+            'copyrightTag       copyrightTag'
+            'ticketAsideTag     ticketAsideTag'
+            'footerTag          cookieTag'
+
+
+        ;
+    }
+
+    #cookieStatement-tickets {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        width: 50%;
+        background-color: #FA0;
+        opacity: 50%;
+        z-index: 9999;
+    }
+
+    table {
+        border-collapse: collapse;
+        font-size: 10px;
+        width: 100%;
+    }
+
+    td,
+    th {
+        border: 1px solid #b5a17f;
+        text-align: left;
+        padding: 2px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #b5a17f;
+
+    }
+
+    td:first-child {
+        color: #2D7625;
+    }
+
+    #contactGrid {
+
+        grid-template-columns: 60% 40%;
+        grid-template-rows: auto auto 50% auto auto;
+
+        grid-template-areas:
+            'headerTag          hamnavTag'
+            'contactInfoTag     contactInfoTag'
+            'formTag            formTag'
+            'contactAsideTag    contactAsideTag'
+            'footerTag          cookieContactTag'
+
+
+
+        ;
+    }
+
+    #cookieStatement-contact {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        width: 40%;
+        background-color: #FA0;
+        opacity: 50%;
+        z-index: 9999;
+        grid-area: cookieContactTag;
+    }
+
+    #contactHTML {
+        overflow-x: visible;
+    }
+
+    input[type=text],
+    input[type=email],
+    select,
+    textarea {
+        width: 100%;
+        padding: 12px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+
+    input[type=submit] {
+        background-color: #44C236;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: brown;
+    }
+
+    #ContactForm {
+        background-color: #44C236;
+        padding: 50px;
+    }
+
+
+    #contactAside {
+        padding: 50px;
+        width: 74%;
+    }
+
+
+}
+
+
+
+#cookieStatement {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 33vw;
+    background-color: #FA0;
+    opacity: 50%;
+    z-index: 9999;
+    grid-area: cookieTag;
+
+}
