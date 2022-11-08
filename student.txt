@@ -1,0 +1,5 @@
+o	Student name: Magomed Madajev
+o	Student number: 685889 
+o	Student class: Inf1c
+o	URL student GitHub repository: https://github.com/Mango-debug/web_markup
+
